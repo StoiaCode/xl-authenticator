@@ -1,0 +1,39 @@
+﻿{
+  "name": "XIVLauncher Dalamud",
+  "subtitle": "XIV Launcher Authenticator App",
+  "description": "Here you can grab the Authenticator app for the Quick Launcher for Final Fantasy XIV",
+  "iconURL": "https://raw.githubusercontent.com/goaaats/xl-authenticator/master/assets/logo.png",
+  "headerURL": "https://raw.githubusercontent.com/goatcorp/FFXIVQuickLauncher/master/misc/header.png",
+  "website": "https://github.com/goaaats/xl-authenticator",
+  "patreonURL": "",
+  "tintColor": "#1b76ca",
+  "apps": [
+    {
+      "name": "XL Authenticator",
+      "bundleIdentifier": "com.goatsoft.xlOtpsend",
+      "developerName": "goaaats",
+      "subtitle": "XIV Launcher Authenticator App",
+      "localizedDescription": "Here you can grab the Authenticator app for the Quick Launcher for Final Fantasy XIV",
+      "iconURL": "https://raw.githubusercontent.com/goaaats/xl-authenticator/master/assets/logo.png",
+      "tintColor": "#1b76ca",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.0.5",
+          "buildVersion": "6",
+          "date": "2021-05-12",
+          "localizedDescription": "First AltStore release!",
+          "downloadURL": "https://github.com/goaaats/xl-authenticator/releases/download/1.0.5/Payload.ipa",
+          "size": 79718
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "This app needs camera access to scan QR codes"
+        }
+      }
+    }
+  ],
+  "news": []
+}
